@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
-
 <head>
-
   <meta charset="UTF-8">
   <meta name="robots" content="index, follow">
   <meta name="viewport" content="width=device-width, initial-scale = 1">
@@ -13,77 +11,46 @@
   <meta name="title" content="Calculator">
   <meta name="description" content="Simple Calculator">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://metatags.io/">
+  <meta property="og:url" content="https://purhariyanto.github.io/Calculator/">
   <meta property="og:title" content="Calculator">
   <meta property="og:description" content="Simple Calculator">
-  <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+  <meta property="og:image" content="https://raw.githubusercontent.com/Purhariyanto/Calculator/main/cal.png">
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://metatags.io/">
+  <meta property="twitter:url" content="https://purhariyanto.github.io/Calculator/">
   <meta property="twitter:title" content="Calculator">
   <meta property="twitter:description" content="Simple Calculator">
-  <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
-
+  <meta property="twitter:image" content="https://raw.githubusercontent.com/Purhariyanto/Calculator/main/cal.png">
 </head>
-
 <body>
   <div class="main">
     <div class="container">
-
       <div class="hasil">
-
         <input maxlength="20" id="tampilan" type="text" name="jawaban" autofocus>
-
       </div>
-
-      <div class="keyboard">
-
+      <div class="tombol">
         <button id="CE" onclick="document.getElementById('tampilan').value = tampilan.value.slice(0,-1)">CE</button>
-
         <button id="hapus" onclick="document.getElementById('tampilan').value =''">C</button>
-
         <button id="bagi" onclick="document.getElementById('tampilan').value += '/'">/</button>
-
         <button id="mod" onclick="document.getElementById('tampilan').value += '%'">%</button>
-
         <button id="siji" onclick="document.getElementById('tampilan').value +='1'">1</button>
-
         <button id="loro" onclick="document.getElementById('tampilan').value +='2'">2</button>
-
         <button id="telu" onclick="document.getElementById('tampilan').value +='3'">3</button>
-
         <button id="tambah" onclick="document.getElementById('tampilan').value +='+'">+</button>
-
-
         <button id="papat" onclick="document.getElementById('tampilan').value +='4'">4</button>
-
         <button id="limo" onclick="document.getElementById('tampilan').value +='5'">5</button>
-
         <button id="enem" onclick="document.getElementById('tampilan').value +='6'">6</button>
-
         <button id="kurang" onclick="document.getElementById('tampilan').value +='-'">-</button>
-
-
         <button id="pitu" onclick="document.getElementById('tampilan').value +='7'">7</button>
-
         <button id="wolu" onclick="document.getElementById('tampilan').value +='8'">8</button>
-
         <button id="songo" onclick="document.getElementById('tampilan').value +='9'">9</button>
-
         <button id="sepoloh" onclick="document.getElementById('tampilan').value +='*'">*</button>
-
         <button disabled class="noHover"></button>
-
         <button id="enol" onclick="document.getElementById('tampilan').value +='0'">0</button>
-
         <button id="pangkat" onclick="document.getElementById('tampilan').value +='**'">^</button>
-
         <button id="samadengan" type="submit" onclick="calculate(tampilan.value)">=</button>
-
       </div>
     </div>
   </div>
   <script type="text/javascript" src="script.js"></script>
-
 </body>
-
 </html>
