@@ -1,4 +1,4 @@
-var input = document.getElementById("tampilan");
+let input = document.getElementById("tampilan");
 
 input.addEventListener("keyup", function(event) {
     if (event.keyCode === 13) {
