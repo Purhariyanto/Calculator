@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+html, body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+button:disabled {
+  color: #fa0000;
+}
+
+button:disabled:hover {
+  color: white;
+  background-color: rgb(128, 255, 255);
+}
+
+.noHover {
+  pointer-events: none;
+}
+
+body {
+  background-color: #1B1E2A;
+}
+
+.main {
+  position: relative;
+  height: 100vh;
+  margin: auto;
+}
+
+.container {
+  height: 410px;
+  width: 340px;
+  background: #262D3A;
+  border-radius: 10px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hasil {
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+
+input {
+  text-align: end;
+  padding: 8px;
+  font-size: 25px;
+}
+
+#tampilan {
+  outline: none;
+  width: 280px;
+  height: 40px;
+  background: #f1f1f1;
+  border-radius: 10px;
+  border-color: none;
+  border: none;
+}
+
+.keyboard {
+  position: relative;
+  top: 40px;
+  text-align: center;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+button {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 22px;
+  color: "black";
+  background: white;
+  border: none;
+  margin: 6px;
+  padding: 12px;
+  outline: none;
+  border-radius: 50%;
+  width: 49px;
+  height: 45px;
+  line-height: normal;
+}
+
+button:nth-child(1) {
+  background: lightgrey;
+}
+
+button:nth-child(2) {
+  font-weight: 550;
+  background: lightgrey;
+}
+
+button:nth-child(3) {
+  background: lightgrey;
+}
+
+button:nth-child(4) {
+  background: lightgrey;
+}
+
+button:nth-child(8) {
+  background: lightgrey;
+}
+
+button:nth-child(12) {
+  padding: 0px;
+  font-size: 30px;
+  background: lightgrey;
+}
+
+button:nth-child(16) {
+  background: lightgrey;
+}
+
+button:nth-child(20) {
+  background: lightgrey;
+}
+
+button:hover {
+  background: rgb(247 230 236);
+}
